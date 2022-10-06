@@ -1,0 +1,114 @@
+body {
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(213, 225, 239);
+}
+
+.qr-code {
+    background-color: white;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: 35%;
+    right: 25%;
+    border-radius: 1.389vw;
+    height: auto;
+    width: 24.306vw;
+    padding-bottom: 2.083vw;
+}
+
+.global-grid {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.div-image {
+    background-image: url(image-qr-code.png);
+    background-repeat: no-repeat;
+    background-size: 20.833vw;
+    height: 20.833vw;
+    border-radius: 10px;
+    margin: 2.083vw 2.083vw 0.694vw 2.083vw;
+}
+
+.text {
+    margin: 0vw 2.431vw 0.694vw 2.431vw;
+}
+
+h2 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-size: 1.042vw;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.667vw;
+}
+
+
+@media screen and (max-width: 375px) {
+    body {
+        margin: auto;
+        text-align: center;
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        top: 0px;
+        left: 0px;
+        background-color: rgb(213, 225, 239);
+    }
+    
+    .qr-code {
+        background-color: white;
+        position: absolute;
+        top: auto;
+        bottom: auto;
+        left: 35%;
+        right: 25%;
+        border-radius: 1.389vw;
+        height: 34.722vw;
+        width: 24.306vw;
+        padding-bottom: 2.083vw;
+    }
+
+    .global-grid {
+        display: grid;
+        grid-template-rows: auto;
+    }
+    
+    .div-image {
+        background-image: url(image-qr-code.png);
+        background-repeat: no-repeat;
+        background-size: 20.833vw;
+        height: 20.833vw;
+        border-radius: 10px;
+        margin: 2.083vw 2.083vw 0.694vw 2.083vw;
+    }
+    
+    .text {
+        margin: 0vw 2.431vw 0.694vw 2.431vw;
+    }
+    
+    h2 {
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+    }
+    
+    p {
+        font-size: 1.042vw;
+        font-weight: 400;
+    }
+
+    h2 {
+        font-size: 1.667vw;
+    }
+}
